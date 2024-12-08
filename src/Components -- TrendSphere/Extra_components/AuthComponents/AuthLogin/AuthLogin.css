@@ -37,7 +37,13 @@ SECOND WRAPPER
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    background: rgba(255, 255, 255, 0.36);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.6px);
+    -webkit-backdrop-filter: blur(7.6px);
+    border: 1px solid rgba(255, 255, 255, 0.73);
 }
 
 
@@ -58,9 +64,10 @@ SECOND WRAPPER
 .styleContainer {
     width: 95%;
     height: 90%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
+    border-radius: 16px;
 }
 
 /*//////////////////////
@@ -456,7 +463,7 @@ BOTH FORM'S MAIN / STATIC CSS
     height: 40px;
     text-align: center;
     color: black;
-    
+
 }
 
 /* Animation = button */
@@ -517,6 +524,3 @@ BOTH FORM'S MAIN / STATIC CSS
 .styleContainer.overlay-active .overlay-right {
     transform: translateX(20%);
 }
-
-
-
